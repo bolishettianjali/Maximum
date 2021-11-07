@@ -3,9 +3,9 @@ package com.maximum;
 public class MaximumOf3 {
     public static void main(String[] args){
         System.out.println("Welcome to Program of finding maximum ");
-        Integer s1=10;
-        Integer s2=20;
-        Integer s3=30;
+        Float s1=10.0f;
+        Float s2=20.0f;
+        Float s3=30.0f;
         System.out.println(getMax(s1,s2,s3));
         }
         private static <T extends Comparable> T getMax(T a,T b,T c){
